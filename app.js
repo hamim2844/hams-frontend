@@ -2,7 +2,7 @@ const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");
 let chatHistory = [];
 
-const apiUrl = "https://https://hams-backend.onrender.com/api/ask"; // এখানে তোমার Render backend URL দাও
+const apiUrl = "https://hams-backend.onrender.com/api/ask"; // এখানে তোমার Render backend URL দাও
 
 userInput.addEventListener("keydown", function(e) {
   if (e.key === "Enter" && !e.shiftKey) {
